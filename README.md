@@ -1,4 +1,4 @@
-# Event Photos Facial Recognition Processor
+# Event Photos Facial Recognition Processor and Gallery
 
 A PHP script that uses AWS Facial Rekognition API to index faces found from a collection of event photos, then tag the photos (or give names to the faces) using a set of key images.
 
