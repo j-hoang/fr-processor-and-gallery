@@ -1,0 +1,124 @@
+[April 26, 2021, 4:02 pm]<h3>Facial Recognition Processing Status</h3><br /><h4>1) Creating Collection for "celebrities"</h4>
+[April 26, 2021, 4:02 pm][ERROR]Error executing "DeleteCollection" on "https://rekognition.us-east-1.amazonaws.com"; AWS HTTP error: cURL error 60: SSL certificate problem: unable to get local issuer certificate (see http://curl.haxx.se/libcurl/c/libcurl-errors.html)
+[April 26, 2021, 4:02 pm]<p>AWS error: Error executing "DeleteCollection" on "https://rekognition.us-east-1.amazonaws.com"; AWS HTTP error: cURL error 60: SSL certificate problem: unable to get local issuer certificate (see http://curl.haxx.se/libcurl/c/libcurl-errors.html)</p>
+[April 26, 2021, 4:02 pm]<h3>Facial Recognition Processing Status</h3><br /><h4>1) Creating Collection for "celebrities"</h4>
+[April 26, 2021, 4:02 pm]{"StatusCode":200,"CollectionArn":"aws:rekognition:us-east-1:581051820577:collection\/celebrities","FaceModelVersion":"5.0","@metadata":{"statusCode":200,"effectiveUri":"https:\/\/rekognition.us-east-1.amazonaws.com","headers":{"content-type":"application\/x-amz-json-1.1","date":"Mon, 26 Apr 2021 20:02:39 GMT","x-amzn-requestid":"15049ebd-5bfc-4976-94f3-977d842cf142","content-length":"123","connection":"keep-alive"},"transferStats":{"http":[[]]}}}
+[April 26, 2021, 4:02 pm]<p>"celebrities" collection created successfully on AWS</p>
+[April 26, 2021, 4:02 pm]<p>"celebrities" collection added to DB</p>
+[April 26, 2021, 4:02 pm]<h4>2) Checking Key Image count for "celebrities" collection</h4>
+[April 26, 2021, 4:02 pm]<p>Number of Key Images found: 8</p>
+[April 26, 2021, 4:02 pm]<h4>3) Checking Event Photo file count for "celebrities" collection</h4>
+[April 26, 2021, 4:02 pm]<p>Number of Event Photo files found: 22</p>
+[April 26, 2021, 4:02 pm]<h4>4) Index Event Photos for "celebrities" collection</h4>
+[April 26, 2021, 4:02 pm]<p>Indexing start time: 04/26/2021 04:02:40 pm (America/New_York timezone)</p>
+[April 26, 2021, 4:02 pm]<p>14596310378_6935847e4b_b.jpg successfully indexed to collection "celebrities"</p>
+[April 26, 2021, 4:02 pm]<p>14616070680_482330e582_b.jpg successfully indexed to collection "celebrities"</p>
+[April 26, 2021, 4:02 pm]<p>14616086290_8de6340bbb_b.jpg successfully indexed to collection "celebrities"</p>
+[April 26, 2021, 4:02 pm]<p>14779506326_2c71feb9c4_b.jpg successfully indexed to collection "celebrities"</p>
+[April 26, 2021, 4:02 pm]<p>14779613506_409f4e96b4_b.jpg successfully indexed to collection "celebrities"</p>
+[April 26, 2021, 4:02 pm]<p>14779631036_38340b3cd6_b.jpg successfully indexed to collection "celebrities"</p>
+[April 26, 2021, 4:02 pm]<p>14779748196_76ffc22217_b.jpg successfully indexed to collection "celebrities"</p>
+[April 26, 2021, 4:02 pm]INDEXING PROCESSING LIMITED UP TO 7 IMAGES ONLY.<br />
+[April 26, 2021, 4:02 pm]<p>Indexing stop time: 04/26/2021 04:02:46 pm (America/New_York timezone)</p>
+[April 26, 2021, 4:02 pm]<p>This script took 5.445629119873 seconds (0.090760485331217 minutes) to execute</p>
+[April 26, 2021, 4:02 pm]<p>Number of Event Photos last indexed: 7</p>
+[April 26, 2021, 4:02 pm]<p>7 event photos indexed from ./fr_images/celebrities/</p>
+[April 26, 2021, 4:02 pm]<h3>Facial Recognition Processing Status</h3><br /><h4>1) Creating Collection for "celebrities"</h4>
+[April 26, 2021, 4:02 pm]<p>The collection ID "celebrities" already exists in DB</p>
+[April 26, 2021, 4:02 pm]<h4>2) Checking Key Image count for "celebrities" collection</h4>
+[April 26, 2021, 4:02 pm]<p>Number of Key Images found: 8</p>
+[April 26, 2021, 4:02 pm]<h4>3) Checking Event Photo file count for "celebrities" collection</h4>
+[April 26, 2021, 4:02 pm]<p>Number of Event Photo files found: 22</p>
+[April 26, 2021, 4:02 pm]<h4>4) Index Event Photos for "celebrities" collection</h4>
+[April 26, 2021, 4:02 pm]<p>Indexing start time: 04/26/2021 04:02:56 pm (America/New_York timezone)</p>
+[April 26, 2021, 4:02 pm]<p>14779838236_3152cc214e_b.jpg successfully indexed to collection "celebrities"</p>
+[April 26, 2021, 4:02 pm]<p>14800314724_e9fb1fb55c_b.jpg successfully indexed to collection "celebrities"</p>
+[April 26, 2021, 4:02 pm]<p>14802403202_185a738949_b.jpg successfully indexed to collection "celebrities"</p>
+[April 26, 2021, 4:02 pm]<p>14822399953_da5af99811_b.jpg successfully indexed to collection "celebrities"</p>
+[April 26, 2021, 4:02 pm]<p>32475662723_baf9c1cf42_b.jpg successfully indexed to collection "celebrities"</p>
+[April 26, 2021, 4:02 pm]<p>45404579971_a36f6e792b_b.jpg successfully indexed to collection "celebrities"</p>
+[April 26, 2021, 4:03 pm]<p>5375289395_806e9ee65c_b.jpg successfully indexed to collection "celebrities"</p>
+[April 26, 2021, 4:03 pm]INDEXING PROCESSING LIMITED UP TO 7 IMAGES ONLY.<br />
+[April 26, 2021, 4:03 pm]<p>Indexing stop time: 04/26/2021 04:03:00 pm (America/New_York timezone)</p>
+[April 26, 2021, 4:03 pm]<p>This script took 4.2787609100342 seconds (0.071312681833903 minutes) to execute</p>
+[April 26, 2021, 4:03 pm]<p>Number of Event Photos last indexed: 7</p>
+[April 26, 2021, 4:03 pm]<p>14 event photos indexed from ./fr_images/celebrities/</p>
+[April 26, 2021, 4:03 pm]<h3>Facial Recognition Processing Status</h3><br /><h4>1) Creating Collection for "celebrities"</h4>
+[April 26, 2021, 4:03 pm]<p>The collection ID "celebrities" already exists in DB</p>
+[April 26, 2021, 4:03 pm]<h4>2) Checking Key Image count for "celebrities" collection</h4>
+[April 26, 2021, 4:03 pm]<p>Number of Key Images found: 8</p>
+[April 26, 2021, 4:03 pm]<h4>3) Checking Event Photo file count for "celebrities" collection</h4>
+[April 26, 2021, 4:03 pm]<p>Number of Event Photo files found: 22</p>
+[April 26, 2021, 4:03 pm]<h4>4) Index Event Photos for "celebrities" collection</h4>
+[April 26, 2021, 4:03 pm]<p>Indexing start time: 04/26/2021 04:03:09 pm (America/New_York timezone)</p>
+[April 26, 2021, 4:03 pm]<p>5484798342_48e32fc474.jpg successfully indexed to collection "celebrities"</p>
+[April 26, 2021, 4:03 pm]<p>7400859836_08f566a76f_b.jpg successfully indexed to collection "celebrities"</p>
+[April 26, 2021, 4:03 pm]<p>7571852962_6780b90342_b.jpg successfully indexed to collection "celebrities"</p>
+[April 26, 2021, 4:03 pm]<p>7732148102_102d3cefff_b.jpg successfully indexed to collection "celebrities"</p>
+[April 26, 2021, 4:03 pm]<p>7732151268_c010d0b135_b.jpg successfully indexed to collection "celebrities"</p>
+[April 26, 2021, 4:03 pm]<p>9361325465_dd0dba0d13_b.jpg successfully indexed to collection "celebrities"</p>
+[April 26, 2021, 4:03 pm]<p>9361338215_8e90c05a9a_b.jpg successfully indexed to collection "celebrities"</p>
+[April 26, 2021, 4:03 pm]INDEXING PROCESSING LIMITED UP TO 7 IMAGES ONLY.<br />
+[April 26, 2021, 4:03 pm]<p>Indexing stop time: 04/26/2021 04:03:16 pm (America/New_York timezone)</p>
+[April 26, 2021, 4:03 pm]<p>This script took 6.2518579959869 seconds (0.10419763326645 minutes) to execute</p>
+[April 26, 2021, 4:03 pm]<p>Number of Event Photos last indexed: 7</p>
+[April 26, 2021, 4:03 pm]<p>21 event photos indexed from ./fr_images/celebrities/</p>
+[April 26, 2021, 4:03 pm]<h3>Facial Recognition Processing Status</h3><br /><h4>1) Creating Collection for "celebrities"</h4>
+[April 26, 2021, 4:03 pm]<p>The collection ID "celebrities" already exists in DB</p>
+[April 26, 2021, 4:03 pm]<h4>2) Checking Key Image count for "celebrities" collection</h4>
+[April 26, 2021, 4:03 pm]<p>Number of Key Images found: 8</p>
+[April 26, 2021, 4:03 pm]<h4>3) Checking Event Photo file count for "celebrities" collection</h4>
+[April 26, 2021, 4:03 pm]<p>Number of Event Photo files found: 22</p>
+[April 26, 2021, 4:03 pm]<h4>4) Index Event Photos for "celebrities" collection</h4>
+[April 26, 2021, 4:03 pm]<p>Indexing start time: 04/26/2021 04:03:25 pm (America/New_York timezone)</p>
+[April 26, 2021, 4:03 pm]<p>9361352693_36715c92ef_b.jpg successfully indexed to collection "celebrities"</p>
+[April 26, 2021, 4:03 pm]<p>Indexing stop time: 04/26/2021 04:03:25 pm (America/New_York timezone)</p>
+[April 26, 2021, 4:03 pm]<p>This script took 0.48418307304382 seconds (0.0080697178840637 minutes) to execute</p>
+[April 26, 2021, 4:03 pm]<p>Number of Event Photos last indexed: 1</p>
+[April 26, 2021, 4:03 pm]<p>22 event photos indexed from ./fr_images/celebrities/</p>
+[April 26, 2021, 4:03 pm]<h3>Facial Recognition Processing Status</h3><br /><h4>1) Creating Collection for "celebrities"</h4>
+[April 26, 2021, 4:03 pm]<p>The collection ID "celebrities" already exists in DB</p>
+[April 26, 2021, 4:03 pm]<h4>2) Checking Key Image count for "celebrities" collection</h4>
+[April 26, 2021, 4:03 pm]<p>Number of Key Images found: 8</p>
+[April 26, 2021, 4:03 pm]<h4>3) Checking Event Photo file count for "celebrities" collection</h4>
+[April 26, 2021, 4:03 pm]<p>Number of Event Photo files found: 22</p>
+[April 26, 2021, 4:03 pm]<h4>4) Index Event Photos for "celebrities" collection</h4>
+[April 26, 2021, 4:03 pm]<p>Indexing start time: 04/26/2021 04:03:32 pm (America/New_York timezone)</p>
+[April 26, 2021, 4:03 pm]<p>Indexing stop time: 04/26/2021 04:03:32 pm (America/New_York timezone)</p>
+[April 26, 2021, 4:03 pm]<p>This script took 0.012396097183228 seconds (0.00020660161972046 minutes) to execute</p>
+[April 26, 2021, 4:03 pm]<p>Number of Event Photos last indexed: 0</p>
+[April 26, 2021, 4:03 pm]<p>22 event photos indexed from ./fr_images/celebrities/</p>
+[April 26, 2021, 4:03 pm]<h4>5) Search across indexed photos with each key image for "celebrities" collection</h4>
+[April 26, 2021, 4:03 pm]<p>Search Faces start time: 04/26/2021 04:03:32 pm (America/New_York timezone)</p>
+[April 26, 2021, 4:03 pm]<p>./fr_images/celebrities/key/Aaron Taylor-Johnson.jpg searched across Collection "celebrities"</p>
+[April 26, 2021, 4:03 pm]<p>./fr_images/celebrities/key/Chris Evans.jpg searched across Collection "celebrities"</p>
+[April 26, 2021, 4:03 pm]<p>./fr_images/celebrities/key/Chris Hemsworth.jpg searched across Collection "celebrities"</p>
+[April 26, 2021, 4:03 pm]<p>./fr_images/celebrities/key/Jeremy Renner.jpg searched across Collection "celebrities"</p>
+[April 26, 2021, 4:03 pm]<p>./fr_images/celebrities/key/Paul Bettany.jpg searched across Collection "celebrities"</p>
+[April 26, 2021, 4:03 pm]<p>./fr_images/celebrities/key/Robert Downey Jr.jpg searched across Collection "celebrities"</p>
+[April 26, 2021, 4:03 pm]<p>./fr_images/celebrities/key/Samuel L Jackson.jpg searched across Collection "celebrities"</p>
+[April 26, 2021, 4:03 pm]<p>Key images used for search limited up to 7 images only.</p>
+[April 26, 2021, 4:03 pm]<p>Search Faces stop time: 04/26/2021 04:03:35 pm (America/New_York timezone)</p>
+[April 26, 2021, 4:03 pm]<p>This script took 2.8689150810242 seconds (0.00020660161972046 minutes) to execute</p>
+[April 26, 2021, 4:03 pm]<p>New key images used for FR search: 7</p>
+[April 26, 2021, 4:03 pm]<p>Key images used for FR searching: 7</p>
+[April 26, 2021, 4:03 pm]<h3>Facial Recognition Processing Status</h3><br /><h4>1) Creating Collection for "celebrities"</h4>
+[April 26, 2021, 4:03 pm]<p>The collection ID "celebrities" already exists in DB</p>
+[April 26, 2021, 4:03 pm]<h4>2) Checking Key Image count for "celebrities" collection</h4>
+[April 26, 2021, 4:03 pm]<p>Number of Key Images found: 8</p>
+[April 26, 2021, 4:03 pm]<h4>3) Checking Event Photo file count for "celebrities" collection</h4>
+[April 26, 2021, 4:03 pm]<p>Number of Event Photo files found: 22</p>
+[April 26, 2021, 4:03 pm]<h4>4) Index Event Photos for "celebrities" collection</h4>
+[April 26, 2021, 4:03 pm]<p>Indexing start time: 04/26/2021 04:03:44 pm (America/New_York timezone)</p>
+[April 26, 2021, 4:03 pm]<p>Indexing stop time: 04/26/2021 04:03:44 pm (America/New_York timezone)</p>
+[April 26, 2021, 4:03 pm]<p>This script took 0.0046799182891846 seconds (7.7998638153076E-5 minutes) to execute</p>
+[April 26, 2021, 4:03 pm]<p>Number of Event Photos last indexed: 0</p>
+[April 26, 2021, 4:03 pm]<p>22 event photos indexed from ./fr_images/celebrities/</p>
+[April 26, 2021, 4:03 pm]<h4>5) Search across indexed photos with each key image for "celebrities" collection</h4>
+[April 26, 2021, 4:03 pm]<p>Search Faces start time: 04/26/2021 04:03:44 pm (America/New_York timezone)</p>
+[April 26, 2021, 4:03 pm]<p>./fr_images/celebrities/key/Scarlett Johansson.jpg searched across Collection "celebrities"</p>
+[April 26, 2021, 4:03 pm]<p>Search Faces stop time: 04/26/2021 04:03:45 pm (America/New_York timezone)</p>
+[April 26, 2021, 4:03 pm]<p>This script took 0.28880620002747 seconds (7.7998638153076E-5 minutes) to execute</p>
+[April 26, 2021, 4:03 pm]<p>New key images used for FR search: 1</p>
+[April 26, 2021, 4:03 pm]<p>Key images used for FR searching: 8</p>
+[April 26, 2021, 4:03 pm]<h4>Facial Recognition Processing Completed</h4>

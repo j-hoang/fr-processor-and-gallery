@@ -51,7 +51,7 @@ Open fr_processor.php in a browser. This will go through the following process:
 - Index event photos that have not been indexed. Store pieces of response data from IndexFaces in database.
 - Search across indexed photos with each key image, if not already done. Store pieces of response data from SearchFacesByImage in database.
 
-If running fr_processor.php without a secure HTTPS connection and an SSL certificate problem occurs, uncomment lines 23-24 i.e.
+If running fr_processor.php without a secure HTTPS connection and an SSL certificate problem occurs, uncomment lines 24 i.e.
 
 ```php
     // For testing only
