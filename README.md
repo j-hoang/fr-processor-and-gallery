@@ -60,7 +60,7 @@ If running fr_processor.php without a secure HTTPS connection and an SSL certifi
 
 NOTE: This is for testing only and should not be done in production since it is not secure!
 
-Due to potential PHP memory limit when running IndexFaces and SearchFacesByImage (i.e. // i.e. Fatal error: Allowed memory size of
+Due to potential PHP memory limit when running IndexFaces and SearchFacesByImage (i.e. Fatal error: Allowed memory size of
 268435456 bytes exhausted (tried to allocate 4179048 bytes) in /aws/Aws/Api/Serializer/JsonBody.php on line 44), processing has been
 limited to 7 images at a time for this project. Number and size of images are a factor in this memory limit error. This limit can be
 modified on line 183 i.e. $indexKeyLimit = 7. Because of this, the HTML form is auto-submited via jQuery until all the images have
